@@ -315,7 +315,6 @@ body.activity-permalink #buddypress div.activity-meta {
 	margin-bottom: 6px;
 }
 #buddypress div.activity-meta a {
-	font: normal 11px/20px Arial, Tahoma, Verdana, sans-serif;
 	padding: 4px 8px;
 }
 #buddypress a.activity-time-since {
@@ -704,7 +703,6 @@ a.bp-title-button {
 	border: 1px solid #ccc;
 	color: #777;
 	cursor: pointer;
-	font: normal 12px/20px Arial, Tahoma, Verdana, sans-serif;
 	outline: none;
 	padding: 4px 10px;
 	text-align: center;
