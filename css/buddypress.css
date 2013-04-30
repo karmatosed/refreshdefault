@@ -121,9 +121,6 @@ Hello, this is the BuddyPress Legacy stylesheet.
 #buddypress form#whats-new-form textarea {
 	background: #fff;
 	border: 1px inset #ccc;
-	-moz-border-radius: 3px;
-	-webkit-border-radius: 3px;
-	border-radius: 3px;
 	color: #555;
 	font-family: inherit;
 	font-size: 90%;
@@ -338,7 +335,6 @@ body.activity-permalink #buddypress div.activity-meta {
 #buddypress a.bp-primary-action span,
 #buddypress #reply-title small a span {
 	background: #999;
-	border-radius: 3px;
 	color: #fff;
 	font-size: 90%;
 	margin-left: 2px;
@@ -443,7 +439,6 @@ body.activity-permalink #buddypress div.activity-comments div.acomment-content {
 #buddypress div.activity-comments form .ac-textarea {
 	background: #fff;
 	border: 1px inset #ccc;
-	border-radius: 3px;
 	margin-bottom: 10px;
 	padding: 8px;
 }
@@ -535,9 +530,6 @@ body.activity-permalink #buddypress div.activity-comments div.acomment-content {
 }
 #buddypress .standard-form#signup_form div div.error {
 	background: #e41717;
-	-moz-border-radius: 3px;
-	-webkit-border-radius: 3px;
-	border-radius: 3px;
 	color: #fff;
 	margin: 0 0 10px 0;
 	padding: 6px;
@@ -580,7 +572,6 @@ body.activity-permalink #buddypress div.activity-comments div.acomment-content {
 #buddypress .standard-form input[type=password],
 #buddypress .dir-search input[type=text] {
 	border: 1px inset #ccc;
-	border-radius: 3px;
 	color: #888;
 	font: inherit;
 	font-size: 100%;
@@ -710,17 +701,7 @@ body.activity-permalink #buddypress div.activity-comments div.acomment-content {
 #buddypress .comment-reply-link,
 a.bp-title-button {
 	background: #fff; /* Old browsers */
-	background: -moz-linear-gradient(top, #ffffff 0%, #ededed 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ededed)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top, #ffffff 0%,#ededed 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top, #ffffff 0%,#ededed 100%); /* Opera11.10+ */
-	background: -ms-linear-gradient(top, #ffffff 0%,#ededed 100%); /* IE10+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
-	background: linear-gradient(top, #ffffff 0%,#ededed 100%); /* W3C */
 	border: 1px solid #ccc;
-	-moz-border-radius: 3px;
-	-webkit-border-radius: 3px;
-	border-radius: 3px;
 	color: #777;
 	cursor: pointer;
 	font: normal 12px/20px Arial, Tahoma, Verdana, sans-serif;
@@ -741,13 +722,6 @@ a.bp-title-button {
 #buddypress div.generic-button a:hover,
 #buddypress .comment-reply-link:hover {
 	background: #ededed;
-	background: -moz-linear-gradient(top, #ffffff 0%, #e0e0e0 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e0e0e0)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top, #ffffff 0%,#e0e0e0 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top, #ffffff 0%,#e0e0e0 100%); /* Opera11.10+ */
-	background: -ms-linear-gradient(top, #ffffff 0%,#e0e0e0 100%); /* IE10+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e0e0e0',GradientType=0 ); /* IE6-9 */
-	background: linear-gradient(top, #ffffff 0%,#e0e0e0 100%); /* W3C */
 	border: 1px solid #bbb;
 	color: #555;
 	outline: none;
@@ -819,14 +793,7 @@ a.bp-title-button {
 #buddypress button.disabled:hover,
 #buddypress div.pending a:hover,
 #buddypress a.disabled:hover {
-	background: -moz-linear-gradient(top, #ffffff 0%, #ededed 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ededed)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top, #ffffff 0%,#ededed 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top, #ffffff 0%,#ededed 100%); /* Opera11.10+ */
-	background: -ms-linear-gradient(top, #ffffff 0%,#ededed 100%); /* IE10+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
-	background: linear-gradient(top, #ffffff 0%,#ededed 100%); /* W3C */
-    border-color: #eee;
+	border-color: #eee;
     color: #bbb;
 }
 
@@ -1031,19 +998,10 @@ a.bp-title-button {
 #buddypress div#message p,
 #sitewide-notice p {
 	border: 1px solid #e1ca82;
-	-moz-border-radius: 3px;
-	-webkit-border-radius: 3px;
-	border-radius: 3px;
 	font-weight: normal;
 	margin-top: 3px;
 	text-decoration: none;
 	background: #ffeaa6;
-	background-image: -webkit-linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, 0));
-	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255, 255, 255, .5)), color-stop(100%,rgba(255, 255, 255, 0))); /* Chrome,Safari4+ */
-	background-image: -moz-linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, 0));
-	background-image: -ms-linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, 0));
-	background-image: -o-linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, 0));
-	background-image: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, 0));
 }
 #buddypress div#item-header {
 	overflow: hidden;
@@ -1076,9 +1034,6 @@ a.bp-title-button {
 }
 #buddypress div#item-header h2 span.highlight span {
 	background: #a1dcfa;
-	-moz-border-radius: 3px;
-	-webkit-border-radius: 3px;
-	border-radius: 3px;
 	color: #fff;
 	cursor: pointer;
 	font-weight: bold;
@@ -1285,7 +1240,6 @@ body.activity-permalink #buddypress ul.item-list li.activity-item {
 #buddypress li span.unread-count,
 #buddypress tr.unread span.unread-count {
 	background: #dd0000;
-	border-radius: 3px;
 	color: #fff;
 	font-weight: bold;
 	padding: 2px 8px;
