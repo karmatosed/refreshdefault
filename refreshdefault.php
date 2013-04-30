@@ -15,6 +15,6 @@ function my_remove_styles( $theme ) {
 }
 
 function refreshdefault_load(){
-	wp_register_style( 'newbp', plugins_url('css/buddypress.css', __FILE__) );
+	wp_register_style( 'newbp', plugins_url('css/test.css', __FILE__) );
     wp_enqueue_style( 'newbp' );
 }
