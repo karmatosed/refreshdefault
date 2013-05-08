@@ -93,11 +93,9 @@ Hello, this is the BuddyPress Legacy stylesheet.
 #buddypress #activity-stream {
 	margin-top: -5px;
 }
-
 #buddypress #activity-stream p {
 	margin: 5px 0;
 }
-
 #buddypress #item-body form#whats-new-form {
 	margin: 0;
 	padding: 0;
@@ -149,9 +147,6 @@ body.no-js #buddypress #whats-new-options {
 #buddypress #whats-new:focus {
 	border-color: rgba(31, 179, 221, 0.9) !important;
 	outline-color: rgba(31, 179, 221, 0.9);
-	box-shadow: 0 0 7px         rgba(31, 179, 221, 0.7);
-	-moz-box-shadow: 0 0 7px    rgba(31, 179, 221, 0.7);
-	-webkit-box-shadow: 0 0 7px rgba(31, 179, 221, 0.7);
 }
 
 /*--------------------------------------------------------------
@@ -304,7 +299,6 @@ body.activity-permalink #buddypress .activity-content blockquote {
 	color: #4D4D4D;
 }
 
-
 /*--------------------------------------------------------------
 6.1.2 - Activity Comments
 --------------------------------------------------------------*/
@@ -444,7 +438,6 @@ body.activity-permalink #buddypress div.activity-comments div.acomment-content {
 #buddypress div.activity-comments form textarea {
 	border: none;
 	background: transparent;
-	box-shadow: none;
 	outline: none;
 	color: #555;
 	font-family: inherit;
@@ -493,7 +486,6 @@ body.activity-permalink #buddypress div.activity-comments div.acomment-content {
 	font-size: 90%;
 	padding: 1px 3px;
 }
-
 #buddypress .dir-form {
 	clear: both;
 }
@@ -762,7 +754,7 @@ a.bp-title-button {
 
 #buddypress a.loading:hover,
 #buddypress input.loading:hover {
-    color: #777;
+	color: #777;
 }
 #buddypress input[type="submit"].pending,
 #buddypress input[type="button"].pending,
@@ -774,9 +766,9 @@ a.bp-title-button {
 #buddypress button.disabled,
 #buddypress div.pending a,
 #buddypress a.disabled {
-    border-color: #eee;
-    color: #bbb;
-    cursor: default;
+	border-color: #eee;
+	color: #bbb;
+	cursor: default;
 }
 #buddypress input[type="submit"]:hover.pending,
 #buddypress input[type="button"]:hover.pending,
@@ -789,7 +781,7 @@ a.bp-title-button {
 #buddypress div.pending a:hover,
 #buddypress a.disabled:hover {
 	border-color: #eee;
-    color: #bbb;
+	color: #bbb;
 }
 
 /*--------------------------------------------------------------
@@ -1082,6 +1074,10 @@ a.bp-title-button {
 #buddypress div#item-header div#message.info {
 	line-height: 80%;
 }
+#buddypress #invite-list ul li {
+	list-style: none;
+	margin-left: 0;
+}
 #buddypress ul.item-list {
 	border-top: 1px solid #eaeaea;
 	width: 100%;
@@ -1177,7 +1173,6 @@ body.activity-permalink #buddypress ul.item-list li.activity-item {
 }
 #buddypress div.item-list-tabs ul li a span {
 	background: #eee;
-	border-radius: 50%;
 	border: 1px solid #ccc;
 	color: #999;
 	display: inline;
@@ -1220,7 +1215,6 @@ body.activity-permalink #buddypress ul.item-list li.activity-item {
 	overflow: auto;
 	list-style: none;
 }
-
 
 /*--------------------------------------------------------------
 6.9 - Private Messaging Threads
