@@ -121,7 +121,6 @@ Hello, this is the BuddyPress Legacy stylesheet.
 }
 #buddypress form#whats-new-form textarea {
 	background: #fff;
-	border: 1px inset #ccc;
 	color: #555;
 	font-family: inherit;
 	font-size: 90%;
