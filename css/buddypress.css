@@ -4,36 +4,35 @@ Hello, this is the BuddyPress Legacy stylesheet.
 ----------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
-4.0 - Navigation
-	4.1 - Pagination
-5.0 - WordPress
-	5.1 - Alignments
-	5.2 - Comments
-	5.3 - Gallery
-	5.4 - Images
-	5.5 - Posts
-6.0 - BuddyPress
-	6.1 - Activity
-		6.1.1 - Activity Listing
-		6.1.2 - Activity Comments
-	6.2 - Toolbar
-	6.3 - Directories - Members, Groups, Blogs, Forums
-	6.4 - Error / Success Messages
-	6.5 - Forms
-	6.6 - Ajax Loading
-	6.7 - Topics and Tables - Forums and General
-	6.8 - Headers, Lists and Tabs - Activity, Groups, Blogs, Forums
-	6.9 - Private Messaging Threads
-	6.10 - Extended Profiles
-	6.11 - Widgets
-7.0 - Media Queries
-	7.1 - Smartphones Landscape
-	7.2 - Smartphones Portrait
-	7.3 - Smartphones - smaller screen sizes
+1.0 - Navigation
+	1.1 - Pagination
+2.0 - WordPress
+	2.1 - Images
+3.0 - BuddyPress
+	3.1 - Activity
+		3.1.1 - Activity Listing
+		3.1.2 - Activity Comments
+	3.2 - Toolbar
+	3.3 - Directories - Members, Groups, Blogs, Forums
+	3.4 - Error / Success Messages
+	3.5 - Forms
+	3.6 - Ajax Loading
+	3.7 - Topics and Tables - Forums and General
+	3.8 - Headers, Lists and Tabs - Activity, Groups, Blogs, Forums
+	3.9 - Private Messaging Threads
+	3.10 - Extended Profiles
+	3.11 - Widgets
+4.0 - Media Queries
+	4.1 - Smartphones Landscape
+	4.2 - Smartphones Portrait
+	4.3 - Smartphones - smaller screen sizes
 --------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
-4.1 - Pagination
+1 - Navigation
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+1.1 - Pagination
 --------------------------------------------------------------*/
 #buddypress div.pagination {
 	background: transparent;
@@ -72,9 +71,11 @@ Hello, this is the BuddyPress Legacy stylesheet.
 #buddypress .paged #nav-above {
 	display: block;
 }
-
 /*--------------------------------------------------------------
-5.4 - Images
+2 - WordPress
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+2.1 - Images
 --------------------------------------------------------------*/
 #buddypress img.wp-smiley {
 	border: none !important;
@@ -85,10 +86,10 @@ Hello, this is the BuddyPress Legacy stylesheet.
 }
 
 /*--------------------------------------------------------------
-6.0 - BuddyPress
+3.0 - BuddyPress
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
-6.1 - Activity
+3.1 - Activity
 --------------------------------------------------------------*/
 #buddypress #activity-stream {
 	margin-top: -5px;
@@ -149,13 +150,10 @@ body.no-js #buddypress #whats-new-options {
 #buddypress #whats-new:focus {
 	border-color: rgba(31, 179, 221, 0.9) !important;
 	outline-color: rgba(31, 179, 221, 0.9);
-	box-shadow: 0 0 7px         rgba(31, 179, 221, 0.7);
-	-moz-box-shadow: 0 0 7px    rgba(31, 179, 221, 0.7);
-	-webkit-box-shadow: 0 0 7px rgba(31, 179, 221, 0.7);
 }
 
 /*--------------------------------------------------------------
-6.1.1 - Activity Listing
+3.1.1 - Activity Listing
 --------------------------------------------------------------*/
 #buddypress ul.activity-list li {
 	overflow: hidden;
@@ -306,7 +304,7 @@ body.activity-permalink #buddypress .activity-content blockquote {
 
 
 /*--------------------------------------------------------------
-6.1.2 - Activity Comments
+3.1.2 - Activity Comments
 --------------------------------------------------------------*/
 #buddypress div.activity-meta {
 	margin: 18px 0 0;
@@ -483,7 +481,7 @@ body.activity-permalink #buddypress div.activity-comments div.acomment-content {
 }
 
 /*--------------------------------------------------------------
-6.3 - Directories - Members, Groups, Blogs, Forums
+3.3 - Directories - Members, Groups, Blogs, Forums
 --------------------------------------------------------------*/
 #buddypress div.dir-search {
 	float: right;
@@ -499,7 +497,7 @@ body.activity-permalink #buddypress div.activity-comments div.acomment-content {
 }
 
 /*--------------------------------------------------------------
-6.4 - Errors / Success Messages
+3.4 - Errors / Success Messages
 --------------------------------------------------------------*/
 #buddypress div#message {
 	margin: 0 0 15px;
@@ -560,7 +558,7 @@ body.activity-permalink #buddypress div.activity-comments div.acomment-content {
 }
 
 /*--------------------------------------------------------------
-6.5 - Forms
+3.5 - Forms
 --------------------------------------------------------------*/
 #buddypress .standard-form textarea,
 #buddypress .standard-form input[type=text],
@@ -724,16 +722,13 @@ a.bp-title-button {
 }
 
 /*--------------------------------------------------------------
-6.6 - Ajax Loading
+3.6 - Ajax Loading
 --------------------------------------------------------------*/
 #buddypress a.loading,
 #buddypress input.loading {
 	-webkit-animation: loader-pulsate .5s infinite ease-in-out alternate;
 	-moz-animation: loader-pulsate .5s infinite ease-in-out alternate;
 	border-color: #aaa;
-	-moz-box-shadow: 0 0 6px #ccc;
-	-webkit-box-shadow: 0 0 6px #ccc;
-	box-shadow: 0 0 6px #ccc;
 }
 @-webkit-keyframes loader-pulsate {
 	from {
@@ -793,7 +788,7 @@ a.bp-title-button {
 }
 
 /*--------------------------------------------------------------
-6.7 - Forums, Tables and Topics
+3.7 - Forums, Tables and Topics
 --------------------------------------------------------------*/
 #buddypress ul#topic-post-list {
 	margin: 0;
@@ -973,7 +968,7 @@ a.bp-title-button {
 }
 
 /*-------------------------------------------------------------------------
-6.8 - Headers, Lists and Tabs - Activity, Groups, Blogs, Forums, Profiles
+3.8 - Headers, Lists and Tabs - Activity, Groups, Blogs, Forums, Profiles
 -------------------------------------------------------------------------*/
 #buddypress .item-body {
 	margin: 20px 0;
@@ -1223,7 +1218,7 @@ body.activity-permalink #buddypress ul.item-list li.activity-item {
 
 
 /*--------------------------------------------------------------
-6.9 - Private Messaging Threads
+3.9 - Private Messaging Threads
 --------------------------------------------------------------*/
 #buddypress table#message-threads tr.unread td {
 	background: #fff9db;
@@ -1292,7 +1287,7 @@ body.activity-permalink #buddypress ul.item-list li.activity-item {
 }
 
 /*--------------------------------------------------------------
-6.10 - Extended Profiles
+3.10 - Extended Profiles
 --------------------------------------------------------------*/
 
 #buddypress div.profile h4 {
@@ -1339,7 +1334,7 @@ body.register #buddypress div.page ul {
 }
 
 /*--------------------------------------------------------------
-6.11 - Widgets
+3.11 - Widgets
 --------------------------------------------------------------*/
 
 .widget.buddypress div.item-avatar img.avatar {
@@ -1386,10 +1381,10 @@ body.register #buddypress div.page ul {
 }
 
 /*--------------------------------------------------------------
-7.0 - Media Queries
+4.0 - Media Queries
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
-7.1 - Smartphones - landscape
+4.1 - Smartphones - landscape
 --------------------------------------------------------------*/
 @media screen and (max-device-width: 480px), screen and (-webkit-min-device-pixel-ratio: 2) {
 	-webkit-text-size-adjust: none;
@@ -1410,7 +1405,7 @@ body.register #buddypress div.page ul {
 }
 
 /*--------------------------------------------------------------
-7.2 - Smartphones - portrait
+4.2 - Smartphones - portrait
 --------------------------------------------------------------*/
 @media only screen and (max-width: 320px) {
 	#buddypress div.dir-search {
@@ -1455,7 +1450,7 @@ body.register #buddypress div.page ul {
 }
 
 /*--------------------------------------------------------------
-7.2 - Smartphones - smaller screen sizes
+4.2 - Smartphones - smaller screen sizes
 --------------------------------------------------------------*/
 @media only screen and (max-width: 240px) {
 	#buddypress div.dir-search {
